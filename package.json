@@ -1,0 +1,16 @@
+{
+  "name": "gimefda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch scss/root.scss:css/style.css --style compressed",
+    "build": "sass scss/root.scss:css/style.css --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

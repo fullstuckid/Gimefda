@@ -1,0 +1,53 @@
+@import "./variables";
+@import "./colors";
+
+* {
+  &,
+  &::before,
+  &::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    // color: white;
+  }
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+#content-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.post-title {
+  text-transform: uppercase;
+  // margin: 10px 0 0 50px;
+  margin: 2rem 0 2rem 0;
+}
+
+.mb-8 {
+  margin-bottom: 10rem;
+}
+
+@import "./header";
+@import "./text";
+@import "./footer";
+
+@import "./cards";
